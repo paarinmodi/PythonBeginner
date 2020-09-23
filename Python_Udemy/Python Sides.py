@@ -2,7 +2,7 @@ import turtle
 t=turtle.Pen()
 turtle.bgcolor("black")
 t.speed(0)
-sides = 12
+sides = eval ( input ("Enter a number of sides between 2 and 6: ") )
 colors = ["blue","red","yellow","orange","green",
           "white","violet","pink","grey","light blue",
           "light yellow","light green"]
